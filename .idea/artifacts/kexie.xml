@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="kexie">
+    <output-path>D:/</output-path>
+    <root id="archive" name="kexie.war">
+      <element id="artifact" artifact-name="kexie:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../programmer/Java_JDK1.8/person/mysql-connector-java-8.0.14.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../programmer/Java_JDK1.8/person/servlet-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../programmer/Java_JDK1.8/person/jstl-1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/学习/21-阶段项目(必看)-电子商务企业实战项目(共61集)/01.项目环境搭建-用户注册-邮件发送/resource/资料/02.jar包/01.完整/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../programmer/Java_JDK1.8/person/gson-2.8.5.jar" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="module" name="JUnit4" module-name="kexie" />
+        </element>
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+      <element id="javaee-facet-resources" facet="kexie/web/Web2" />
+    </root>
+  </artifact>
+</component>

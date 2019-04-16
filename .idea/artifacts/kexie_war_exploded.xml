@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="kexie:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/kexie_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="kexie/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="kexie" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../programmer/Java_JDK1.8/person/commons-beanutils-1.8.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../project/web/WEB-INF/lib/c3p0-0.9.2-pre5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../project/web/WEB-INF/lib/mchange-commons-java-0.2.3.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/学习/21-阶段项目(必看)-电子商务企业实战项目(共61集)/01.项目环境搭建-用户注册-邮件发送/resource/资料/02.jar包/01.完整/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../programmer/Java_JDK1.8/person/mysql-connector-java-8.0.14.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../programmer/Java_JDK1.8/person/commons-fileupload-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../programmer/Java_JDK1.8/person/commons-io-1.4.jar" />
+          <element id="library" level="module" name="JUnit4" module-name="kexie" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="kexie/web/Web2" />
+    </root>
+  </artifact>
+</component>
